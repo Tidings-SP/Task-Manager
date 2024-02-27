@@ -1,0 +1,42 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_form input {
+  width: 600px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  border-color: #B3D6FF;
+  outline: none;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+
+.create_form button {
+  padding: 10px;
+  background-color: #B3D6FF;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #B3D6FF;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.icon {
+  margin-left: auto;
+ display: flex;
+ gap: 15px;
+}
